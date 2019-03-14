@@ -1,0 +1,176 @@
+html, body {
+  margin: 100;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin:  500 auto;
+  max-width: 940px; 
+  padding: 500 100px;
+}
+
+.header {
+  background: url(https://www.shareyouroffice.com/blog-syo/wp-content/uploads/2018/02/annie-spratt-294450.jpg) no-repeat center center ; 
+  background-size: cover ;
+  height: 800px;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 120px;
+}
+
+.header h1 {
+  color: #fab;
+  line-height: 100px; 
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase; 
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 10px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s; 
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+.jumbotron {
+  background: url(https://images.designtrends.com/wp-content/uploads/2016/04/06072014/feature15.jpg) center center;
+  background-size: center;
+  height: 100px; 
+}
+.jumbotron1 {
+  background: url(https://www.beautycolorcode.com/b2ff59.png) center center;
+  background-size: center;
+  height: 100px; 
+}
+
+
+.jumbotron .container {
+  position: center;
+  top: 0px;
+}
+
+.jumbotron1 .container {
+  margin: 5000;  
+  position: center;
+  top: 0px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  text-align: center; 
+}
+.jumbotron1 h2 {
+  color: #fff;
+  text-align: center; 
+}
+
+.jumbotron p {
+  color: #fff; 
+  text-align: center; 
+}
+.jumbotron1 p {
+  color: #fff; 
+  text-align: center; 
+}
+
+.jumbotron .btn {
+  margin: 1px 0 0;
+  float: center; 
+}
+.jumbotron1 .btn {
+  margin: 1px 0 0;
+  float: center; 
+}
+
+.footer { 
+  background: #ffa;
+  height: 100px; 
+  padding-bottom: 0px;
+}
+
+.footer p { 
+  color: #000;
+  font-size: 20px;  
+  height: 80px; 
+  line-height: 100px;
+  margin: 5000;  
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
